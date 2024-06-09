@@ -222,7 +222,7 @@ nav ul{
 .info-type{
     height: 80%;
     background-color: var(--highlight);
-    padding: 15px 80px 15px 20px;
+    padding: 10px 80px 20px 20px;
     color: white;
     border-radius: 10px;
     font-family: var(--font-main);
@@ -709,7 +709,10 @@ button .fa{
         margin: 4px 0;
         width: 100%;
     }
+    .info-type{
+        padding: 15px 80px 15px 20px;
 
+}
     .info-tile:hover .info-type{
         padding-right: 200px;
         
@@ -922,7 +925,7 @@ button .fa{
         flex-direction: column;
         justify-content: center;
     }
-    
+
     #hero-one {
        
         margin-top: 50px;
@@ -935,7 +938,6 @@ button .fa{
         margin: 10px auto 0 auto;
     }
 
-
     #myImage {
         margin-top: 50px; 
         width: 85%; 
@@ -946,19 +948,17 @@ button .fa{
         display: flex;
         flex-direction: column;
         margin: 0; 
-        
         justify-content: left;
         
     }
-    
+  
 
-    
     #hero-two h1 {
         font-size: 1rem; 
     }
 
     #hero-two h2 {
-        font-size: 2.5rem; 
+        font-size: 2rem; 
     }
 
     #hero-two h3 {
@@ -1014,4 +1014,5 @@ button .fa{
         padding-left: 20px; 
         font-size: 1.5rem; 
     }
+
 }
