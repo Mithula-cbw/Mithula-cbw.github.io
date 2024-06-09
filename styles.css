@@ -942,8 +942,8 @@ button .fa{
     .hero-part {
         display: flex;
         flex-direction: column;
-        margin: 8px ; 
-        padding: 10px ;
+        margin: 0; 
+        
         justify-content: left;
         
     }
