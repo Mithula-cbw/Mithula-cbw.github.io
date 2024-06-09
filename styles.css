@@ -930,7 +930,7 @@ button .fa{
     #hero-two {
         width: 85%; 
         font-family: var(--font-main);
-        margin: 0 0 0 auto;
+        margin:auto;
     }
 
     #myImage {
@@ -942,10 +942,10 @@ button .fa{
     .hero-part {
         display: flex;
         flex-direction: column;
-        margin: 8px 8px 8px 0; 
-        padding: 10px 10px 10px 0;
+        margin: 8px ; 
+        padding: 10px ;
         justify-content: left;
-        margin-left: -10px;
+        
     }
 
     #hero-two h1 {
