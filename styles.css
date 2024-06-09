@@ -943,7 +943,7 @@ button .fa{
         display: flex;
         flex-direction: column;
         margin: 0; 
-        
+        margin-top: 60px;
         justify-content: left;
         
     }
