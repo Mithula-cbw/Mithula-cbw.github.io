@@ -943,11 +943,15 @@ button .fa{
         display: flex;
         flex-direction: column;
         margin: 0; 
-        margin-top: 60px;
+        
         justify-content: left;
         
     }
-
+    
+ #hero-one{
+    margin-top: 60px;
+    }
+    
     #hero-two h1 {
         font-size: 1rem; 
     }
