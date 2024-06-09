@@ -925,14 +925,14 @@ button .fa{
     
     #hero-one {
        
-        margin-top: 60px;
+        margin-top: 50px;
     }
 
     #hero-two {
         width: 85%; 
         font-family: var(--font-main);
         margin:auto;
-        margin: 0 auto;
+        margin: 10px auto 0 auto;
     }
 
 
