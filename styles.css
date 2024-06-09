@@ -922,16 +922,19 @@ button .fa{
         flex-direction: column;
         justify-content: center;
     }
-
+    
     #hero-one {
-        margin-left: 0;
+       
+        margin-top: 60px;
     }
 
     #hero-two {
         width: 85%; 
         font-family: var(--font-main);
         margin:auto;
+        margin: 0 auto;
     }
+
 
     #myImage {
         margin-top: 50px; 
@@ -948,9 +951,7 @@ button .fa{
         
     }
     
- #hero-one{
-    margin-top: 60px;
-    }
+
     
     #hero-two h1 {
         font-size: 1rem; 
