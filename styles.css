@@ -273,6 +273,12 @@ nav ul{
     flex-wrap: wrap; 
     justify-content: space-between;
     color: white;
+    font-family: "Mulish", sans-serif;
+    
+}
+
+#ex-tiles p{
+    font-size: 0.8rem;
 }
 
 .ex-part {
@@ -699,7 +705,7 @@ button .fa{
 }
 
 
-@media (max-width:900px){
+@media (max-width:910px){
     #info-tiles{
        
         flex-direction: column;
@@ -709,7 +715,10 @@ button .fa{
         margin: 4px 0;
         width: 100%;
     }
+    .info-type{
+        padding: 15px 80px 15px 20px;
 
+}
     .info-tile:hover .info-type{
         padding-right: 200px;
         
@@ -924,13 +933,15 @@ button .fa{
     }
 
     #hero-one {
-        margin-left: 0;
+       
+        margin-top: 50px;
     }
 
     #hero-two {
         width: 85%; 
         font-family: var(--font-main);
-        margin: 0 0 0 auto;
+        margin:auto;
+        margin: 10px auto 0 auto;
     }
 
     #myImage {
@@ -942,18 +953,18 @@ button .fa{
     .hero-part {
         display: flex;
         flex-direction: column;
-        margin: 8px 8px 8px 0; 
-        padding: 10px 10px 10px 0;
+        margin: 0; 
         justify-content: left;
-        margin-left: -10px;
+        
     }
+  
 
     #hero-two h1 {
         font-size: 1rem; 
     }
 
     #hero-two h2 {
-        font-size: 2.5rem; 
+        font-size: 2rem; 
     }
 
     #hero-two h3 {
@@ -1009,4 +1020,5 @@ button .fa{
         padding-left: 20px; 
         font-size: 1.5rem; 
     }
+
 }

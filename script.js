@@ -59,4 +59,21 @@
                 mediaQuery.addListener(handleMediaChange);
             });
             
+            
+             document.getElementById('copy-link').addEventListener('click', function(event) {
+                event.preventDefault();
+                var phoneNumber = document.getElementById('phone-number').innerText.trim();
+                 var tempInput = document.createElement('input');
+                
+                 tempInput.value = phoneNumber;
+             document.body.appendChild(tempInput);
+                  tempInput.select();
+                  tempInput.setSelectionRange(0, 99999);
+                 document.execCommand('copy');
+                document.body.removeChild(tempInput);
+                 alert('Phone number copied to clipboard: ' + phoneNumber);
+             });
+
+
+            
      
